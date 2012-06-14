@@ -5,7 +5,9 @@ class ZuiJqueryGrailsPlugin {
     def grailsVersion = '2.0 > *'
 
     def pluginExcludes = [
-        'grails-app/views/error.gsp'
+        'grails-app/views/layouts/application.gsp',
+        'grails-app/views/error.gsp',
+        'grails-app/views/index.gsp',
     ]
 
     def title = 'ZebUI JQuery Plugin'
