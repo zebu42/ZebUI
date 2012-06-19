@@ -10,6 +10,6 @@ def jqueryWrapper = {
 
 modules = {
   jquery {
-    resource url: "/js/jquery-${jqueryVersion}.min.js", wrapper: { jqueryWrapper(it) }
+    resource id: 'jquery', url: "/js/jquery-${jqueryVersion}.min.js", wrapper: { jqueryWrapper(it) }
   }
 }
