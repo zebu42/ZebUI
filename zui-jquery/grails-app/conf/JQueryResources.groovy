@@ -1,7 +1,8 @@
 
 import org.codehaus.groovy.grails.commons.ApplicationHolder as AH
 
-def jqueryVersion = AH.application.mainContext.pluginManager.getGrailsPlugin('zui-jquery').version
+def pluginManager = AH.application.mainContext.pluginManager
+def jqueryVersion = pluginManager.getGrailsPlugin('zui-jquery').version[0..-3]
 
 def jqueryWrapper = {
   """<script src="//ajax.googleapis.com/ajax/libs/jquery/$jqueryVersion/jquery.min.js"></script>
