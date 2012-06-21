@@ -13,7 +13,7 @@ class ZuiJqueryGrailsPlugin {
     def title = 'ZebUI JQuery Plugin'
     def author = 'Zebu42'
     def authorEmail = 'Zebu42@gmail.com'
-    def description = 'ZebUI JQuery Plugin'
+    def description = 'http://jquery.com/'
 
     def license = 'GPL3'
     def documentation = 'https://github.com/zebu42/ZebUI/wiki'
