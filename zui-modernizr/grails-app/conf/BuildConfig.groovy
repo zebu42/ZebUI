@@ -10,6 +10,10 @@ grails.project.dependency.resolution = {
 
     plugins {
         build(":tomcat:$grailsVersion") { export = false }
-        runtime(":resources:1.2-RC1") { export = false }
+
+        runtime(':resources:1.2-RC1') { export = false }
+        runtime(':zipped-resources:1.0') { export = false }
+        runtime(':cached-resources:1.0') { export = false }
+        runtime(':yui-minify-resources:0.1.5') { export = false }
     }
 }
