@@ -6,6 +6,6 @@ def modernizrVersion = pluginManager.getGrailsPlugin('zui-modernizr').version[0.
 
 modules = {
   modernizr {
-    resource id: 'modernizr', url: "/js/modernizr-${modernizrVersion}.js", disposition: 'head'
+    resource id: 'js', url: "/js/modernizr-${modernizrVersion}.js", disposition: 'head'
   }
 }
