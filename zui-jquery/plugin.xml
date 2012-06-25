@@ -1,4 +1,4 @@
-<plugin name='zui-jquery' version='1.7.2.0' grailsVersion='2.0 &gt; *'>
+<plugin name='zui-jquery' version='1.7.2.1' grailsVersion='2.0 &gt; *'>
   <author>Zebu42</author>
   <authorEmail>Zebu42@gmail.com</authorEmail>
   <title>ZebUI JQuery Plugin</title>
@@ -13,6 +13,7 @@
     <repository name='http://repo.grails.org/grails/plugins' url='http://repo.grails.org/grails/plugins/' />
     <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
     <repository name='grailsCore' url='http://svn.codehaus.org/grails/trunk/grails-plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
     <repository name='http://grails.org/plugins' url='http://grails.org/plugins' />
   </repositories>
   <dependencies />
