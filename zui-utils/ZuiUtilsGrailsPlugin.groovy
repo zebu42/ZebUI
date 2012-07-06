@@ -1,6 +1,6 @@
 class ZuiUtilsGrailsPlugin {
 
-    def version = '0.1'
+    def version = '0.1' + '-SNAPSHOT'
 
     def grailsVersion = '2.0 > *'
 
