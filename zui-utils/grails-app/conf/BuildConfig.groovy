@@ -7,4 +7,8 @@ grails.project.dependency.resolution = {
     repositories {
         grailsCentral()
     }
+
+    plugins {
+        build ':release:2.0.3'
+    }
 }
