@@ -1,1 +1,4 @@
-target
+target/
+plugin.xml
+grails-*.zip
+grails-*.zip.sha1
