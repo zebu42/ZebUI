@@ -5,10 +5,14 @@ grails.project.dependency.resolution = {
     inherits 'global'
 
     repositories {
+        mavenLocal()
         grailsCentral()
     }
 
     plugins {
+        compile ':zui-utils:0.1'
+
+        build(':release:2.0.3') { export = false }
         build(":tomcat:$grailsVersion") { export = false }
 
         runtime(':resources:1.2-RC1') { export = false }
