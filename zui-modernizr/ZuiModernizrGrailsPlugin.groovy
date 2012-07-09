@@ -1,6 +1,6 @@
 class ZuiModernizrGrailsPlugin {
 
-    def version = '2.5.3.1'
+    def version = '2.5.3.2'
 
     def grailsVersion = '2.0 > *'
 

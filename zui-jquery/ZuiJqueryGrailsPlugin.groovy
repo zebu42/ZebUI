@@ -1,6 +1,6 @@
 class ZuiJqueryGrailsPlugin {
 
-    def version = '1.7.2.1'
+    def version = '1.7.2.2'
 
     def grailsVersion = '2.0 > *'
 
