@@ -1,19 +1,13 @@
-class ZuiJqueryGrailsPlugin {
+class ZuiResourcesGrailsPlugin {
 
-    def version = '1.7.2.2'
+    def version = '0.1'
 
     def grailsVersion = '2.0 > *'
 
-    def pluginExcludes = [
-        'grails-app/views/layouts/application.gsp',
-        'grails-app/views/error.gsp',
-        'grails-app/views/index.gsp',
-    ]
-
-    def title = 'ZebUI JQuery Plugin'
+    def title = 'ZebUI Resources Plugin'
     def author = 'Zebu42'
     def authorEmail = 'Zebu42@gmail.com'
-    def description = 'http://jquery.com/'
+    def description = 'ZebUI Resources Plugin'
 
     def license = 'GPL3'
     def documentation = 'https://github.com/zebu42/ZebUI/wiki'
